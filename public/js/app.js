@@ -1,4 +1,4 @@
-console.log('client side js file is loaded')
+console.log('client side js file is loaded changed')
 fetch('http://localhost:3000/weather?address=Mardan%20pakistan').then(response => {
     response.json().then(data => {
         if (data.error) {
