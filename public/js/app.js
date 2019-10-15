@@ -8,7 +8,7 @@ fetch('http://localhost:3000/weather?address=Mardan%20pakistan').then(response =
         }
     })
 });
-
+ 
 const weatherForm = document.querySelector('form');
 const search = document.querySelector('input')
 const messageOne = document.querySelector('#message-1');
